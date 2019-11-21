@@ -21,7 +21,7 @@ describe('GET - /test', async () => {
 
     it('returns 200', async () => {
         // make a GET request on the app for the url '/'
-        const response = await request(app).get('/test')
+        const response = await request(app).get('/testing')
 
         // check the HTTP status code
         expect(response.statusCode).to.equal(200)
